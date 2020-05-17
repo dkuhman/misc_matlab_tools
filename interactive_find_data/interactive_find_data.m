@@ -5,9 +5,9 @@ function [selected_locs_data] = interactive_find_data(x_data,y_data)
 %Inputs: x and y data
 %Outputs: an Nx2 matrix (N = number of points selected) where column 1 is
 %the x index and column 2 is the y index of each selected point. 
-%Author: Daniel Kuhman
-%Contact: danielkuhman@gmail.com
-%Date created: 7/24/2019
+%Created by: Daniel Kuhman
+%Github: https://github.com/dkuhman
+%Last updated: 2020-05-17
 
 % Create data
 x = x_data;

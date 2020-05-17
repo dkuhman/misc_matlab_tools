@@ -1,7 +1,13 @@
 %This script tests the function interactive_delete, which allows the user 
 %to manually select data from a figure and return the selected data coordinates 
-%and values. 
-clear all; clc
+%and values.
+%Created by: Daniel Kuhman
+%Github: https://github.com/dkuhman
+%Last updated: 2020-05-17
+
+%Clear workspace
+clear all
+clc
 
 % Create data
 x = 1:100; 
