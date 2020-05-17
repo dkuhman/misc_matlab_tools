@@ -3,9 +3,11 @@ This repository contains miscellaneous tools that I have developed for data anal
 
 ---
 ## Interacting with Figure Data
-`interactive_find_data.m`
+`interactive_find_data.m`: This function plots x,y data inputs, allows the user to brush data points on the figure, and returns the x,y data brushed. This function calls the `callback` function (also included in this repository).
 
-`interactive_delete_test_script.m`
+`interactive_delete_test_script.m`: This script provides an example case for the `interactive_find_data()` function.
+
+<img src='media/interact_data_img.jpg' width=50%>
 
 ---
 ## Batch Processing Template
