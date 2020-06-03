@@ -6,11 +6,15 @@
 %Clear the workspace
 clear all; clc
 
+%Generate a matrix with random data
 data_in = [rand(10,1), rand(10,1), rand(10,1)];
+%Specify the start and end of the desired output and the interpolation
+%method
 start_val = 0;
 end_val = 99;
 method = 'linear';
 
+%Run the function
 [data_interp] = interp_mat(data_in, start_val, end_val, method);
 
 %Plot to ensure that both signals are the same shape but contain different

@@ -1,4 +1,7 @@
 function [data_out] = interp_mat(data_in, start_val, end_val, method)
+%This fnction uses built-in interp1() function to interpolate multiple
+%signals. Specifically, it will run the same interpolation across all rows
+%of each column.
 %Created by: Daniel Kuhman
 %Last update: 2020-06-02
 %Github: https://github.com/dkuhman
